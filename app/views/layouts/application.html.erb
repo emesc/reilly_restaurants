@@ -7,7 +7,6 @@
     <title><%= content_for?(:title) ? yield(:title) : "Ruby on Rails and React" %></title>
 
     <%= stylesheet_link_tag    "application" %>
-    <%= javascript_include_tag "vendor/assets/javascripts/modenizr-custom" %>
     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
   </head>
