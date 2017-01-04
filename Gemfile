@@ -22,7 +22,7 @@ gem 'jbuilder', '~> 2.5'
 # quickly and easily build trees in rails
 gem 'ancestry'
 # add and remove records from admin interface
-gem 'rails_admin'
+gem 'rails_admin', '~> 1.1', '>= 1.1.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
