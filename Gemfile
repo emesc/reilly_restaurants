@@ -25,6 +25,8 @@ gem 'ancestry', '~> 2.2', '>= 2.2.2'
 gem 'rails_admin', '~> 1.1', '>= 1.1.1'
 # for layouts
 gem 'foundation-rails', '~> 6.3'
+# use react
+gem 'react-rails', '~> 1.10'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
